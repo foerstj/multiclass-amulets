@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_none;
 
-    common:screen_name = "Multiclass";
+    common:screen_name = "Melee + Nature Magic, Uber Level 50";
 	[skill_rune]
 	{
 		uber_stat	= 50;
@@ -10,8 +10,8 @@
 		ranged_stat	= 0;
 		cmagic_stat	= 0;
 		nmagic_stat	= 45;
-		int_stat	= 20;
-		dex_stat	= 5;
-		str_stat	= 20;
+		int_stat	= 20.5;
+		dex_stat	= 4.5;
+		str_stat	= 18.25;
 	}
 }
