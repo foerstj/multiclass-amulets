@@ -1,0 +1,19 @@
+[t:multiclass_amulets_demo_merchant,n:0x00100004]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = shop;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -3.3464,0,0.184328,0x461560b1;
+	}
+}
