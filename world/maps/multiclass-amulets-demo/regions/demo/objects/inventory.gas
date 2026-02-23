@@ -19,3 +19,17 @@
 	  p position = 2.50802,9.53674e-007,-1.78829,0x461560b1;
 	}
 }
+[t:multiclass_amulet_mn_uber60,n:0x00100005]
+{
+	[placement]
+	{
+	  p position = 2.89212,0,-1.91442,0x461560b1;
+	}
+}
+[t:multiclass_amulet_rc_uber30,n:0x00100006]
+{
+	[placement]
+	{
+	  p position = -0.453192,-9.53674e-007,-2.73625,0x461560b1;
+	}
+}

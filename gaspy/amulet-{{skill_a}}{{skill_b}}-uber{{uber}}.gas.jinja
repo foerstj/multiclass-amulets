@@ -13,7 +13,12 @@
 
 	[gui]
 	{
-		equip_requirements = {{ skill_name_a | lower }}:{{ req_a }},{{ skill_name_b | lower }}:{{ req_b }},strength:{{ req_str }},intelligence:{{ req_int }};
+		{% set skill_reqs = {skill_name_a | lower: req_a, skill_name_b | lower: req_b} %}
+		{% set skill_reqs = [skill_name ~ ':' ~ skill_value for skill_name, skill_value in skill_reqs.items()] %}
+		{% set stat_reqs = {'strength': req_str, 'dexterity': req_dex, 'intelligence': req_int} %}
+		{% set stat_reqs = [(stat ~ ':' ~ req) if req else none for stat, req in stat_reqs.items()] %}
+		{% set stat_reqs = [stat_req for stat_req in stat_reqs if stat_req is not none] %}
+		equip_requirements = {{ skill_reqs | join(',') }},{{ stat_reqs | join(',') }};
 	}
 	[magic]
 	{

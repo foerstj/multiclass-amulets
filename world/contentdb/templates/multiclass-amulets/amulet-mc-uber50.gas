@@ -1,0 +1,39 @@
+[t:template,n:multiclass_amulet_mc_uber50]
+{
+	specializes = amulet;
+
+	doc = "Multiclass Amulet";
+	common:screen_name	= "Melee + Combat Magic, Uber Level 50";
+    common:is_pcontent_allowed = false;
+    gui:inventory_icon = b_gui_ig_i_it_amulet_005;
+    aspect:gold_value = 2100;
+
+	[gui]
+	{
+		equip_requirements = melee:45,combat magic:45,strength:29,intelligence:29;
+	}
+	[magic]
+	{
+		[enchantments]
+		{
+			[*]
+			{
+				alteration			= alter_strength;
+				value				= 9.55;
+				description			= "+9.55 to Strength";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+			[*]
+			{
+				alteration			= alter_intelligence;
+				value				= 11.75;
+				description			= "+11.75 to Intelligence";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+		}
+	}
+}

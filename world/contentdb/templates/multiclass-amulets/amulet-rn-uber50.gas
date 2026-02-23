@@ -1,0 +1,39 @@
+[t:template,n:multiclass_amulet_rn_uber50]
+{
+	specializes = amulet;
+
+	doc = "Multiclass Amulet";
+	common:screen_name	= "Ranged + Nature Magic, Uber Level 50";
+    common:is_pcontent_allowed = false;
+    gui:inventory_icon = b_gui_ig_i_it_amulet_005;
+    aspect:gold_value = 2100;
+
+	[gui]
+	{
+		equip_requirements = ranged:45,nature magic:45,dexterity:30,intelligence:31;
+	}
+	[magic]
+	{
+		[enchantments]
+		{
+			[*]
+			{
+				alteration			= alter_dexterity;
+				value				= 7.9;
+				description			= "+7.9 to Dexterity";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+			[*]
+			{
+				alteration			= alter_intelligence;
+				value				= 11.35;
+				description			= "+11.35 to Intelligence";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+		}
+	}
+}

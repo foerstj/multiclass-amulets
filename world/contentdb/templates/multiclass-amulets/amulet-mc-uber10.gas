@@ -1,0 +1,39 @@
+[t:template,n:multiclass_amulet_mc_uber10]
+{
+	specializes = amulet;
+
+	doc = "Multiclass Amulet";
+	common:screen_name	= "Melee + Combat Magic, Uber Level 10";
+    common:is_pcontent_allowed = false;
+    gui:inventory_icon = b_gui_ig_i_it_amulet_005;
+    aspect:gold_value = 420;
+
+	[gui]
+	{
+		equip_requirements = melee:7,combat magic:7,strength:13,intelligence:13;
+	}
+	[magic]
+	{
+		[enchantments]
+		{
+			[*]
+			{
+				alteration			= alter_strength;
+				value				= 0.63;
+				description			= "+0.63 to Strength";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+			[*]
+			{
+				alteration			= alter_intelligence;
+				value				= 0.95;
+				description			= "+0.95 to Intelligence";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+		}
+	}
+}

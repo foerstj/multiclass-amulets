@@ -1,0 +1,39 @@
+[t:template,n:multiclass_amulet_mr_uber60]
+{
+	specializes = amulet;
+
+	doc = "Multiclass Amulet";
+	common:screen_name	= "Melee + Ranged, Uber Level 60";
+    common:is_pcontent_allowed = false;
+    gui:inventory_icon = b_gui_ig_i_it_amulet_005;
+    aspect:gold_value = 2520;
+
+	[gui]
+	{
+		equip_requirements = melee:55,ranged:55,strength:36,dexterity:36;
+	}
+	[magic]
+	{
+		[enchantments]
+		{
+			[*]
+			{
+				alteration			= alter_strength;
+				value				= 8.5;
+				description			= "+8.5 to Strength";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+			[*]
+			{
+				alteration			= alter_dexterity;
+				value				= 7.4;
+				description			= "+7.4 to Dexterity";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+		}
+	}
+}

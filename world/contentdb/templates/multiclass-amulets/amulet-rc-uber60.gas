@@ -1,0 +1,39 @@
+[t:template,n:multiclass_amulet_rc_uber60]
+{
+	specializes = amulet;
+
+	doc = "Multiclass Amulet";
+	common:screen_name	= "Ranged + Combat Magic, Uber Level 60";
+    common:is_pcontent_allowed = false;
+    gui:inventory_icon = b_gui_ig_i_it_amulet_005;
+    aspect:gold_value = 2520;
+
+	[gui]
+	{
+		equip_requirements = ranged:55,combat magic:55,dexterity:33,intelligence:34;
+	}
+	[magic]
+	{
+		[enchantments]
+		{
+			[*]
+			{
+				alteration			= alter_dexterity;
+				value				= 10.4;
+				description			= "+10.4 to Dexterity";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+			[*]
+			{
+				alteration			= alter_intelligence;
+				value				= 13.6;
+				description			= "+13.6 to Intelligence";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+		}
+	}
+}

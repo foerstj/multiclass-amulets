@@ -1,0 +1,39 @@
+[t:template,n:multiclass_amulet_mn_uber10]
+{
+	specializes = amulet;
+
+	doc = "Multiclass Amulet";
+	common:screen_name	= "Melee + Nature Magic, Uber Level 10";
+    common:is_pcontent_allowed = false;
+    gui:inventory_icon = b_gui_ig_i_it_amulet_005;
+    aspect:gold_value = 420;
+
+	[gui]
+	{
+		equip_requirements = melee:7,nature magic:7,strength:13,intelligence:14;
+	}
+	[magic]
+	{
+		[enchantments]
+		{
+			[*]
+			{
+				alteration			= alter_strength;
+				value				= 0.83;
+				description			= "+0.83 to Strength";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+			[*]
+			{
+				alteration			= alter_intelligence;
+				value				= 1.01;
+				description			= "+1.01 to Intelligence";
+				duration			= #infinite;
+				is_permanent		= true;
+				is_single_instance	= false;
+			}
+		}
+	}
+}
