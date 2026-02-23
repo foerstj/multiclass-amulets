@@ -1,5 +1,6 @@
 :: map name, case sensitive
-set map_cs=test
+set mod_cs=Multiclass Amulets
+set map_cs=%mod_cs% Demo
 :: path of DS installation
 set ds=%DungeonSiege%
 

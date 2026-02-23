@@ -1,5 +1,6 @@
 :: map name, lowercase
-set map=test
+set mod=multiclass-amulets
+set map=%mod%-demo
 :: path of Bits dir
 set bits=%~dp0.
 :: path of DS installation
