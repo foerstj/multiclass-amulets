@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_multiclass]
+{
+	specializes = base_skill_rune_none;
+
+    common:screen_name = "Multiclass";
+	[skill_rune]
+	{
+		uber_stat	= 50;
+		melee_stat	= 45;
+		ranged_stat	= 0;
+		cmagic_stat	= 0;
+		nmagic_stat	= 45;
+		int_stat	= 20;
+		dex_stat	= 5;
+		str_stat	= 20;
+	}
+}

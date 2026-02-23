@@ -1,0 +1,21 @@
+[t:amulet_reqs,n:0x00100000]
+{
+	[placement]
+	{
+	  p position = 1.39251,0,-1.35454,0x461560b1;
+	}
+}
+[t:skill_rune_multiclass,n:0x00100002]
+{
+	[placement]
+	{
+	  p position = 1.43257,0,2.33039,0x461560b1;
+	}
+}
+[t:amulet_reqs2,n:0x00100003]
+{
+	[placement]
+	{
+	  p position = 2.50802,9.53674e-007,-1.78829,0x461560b1;
+	}
+}
