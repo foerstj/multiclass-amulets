@@ -1,4 +1,4 @@
-[t:template,n:amulet_reqs2]
+[t:template,n:multiclass_amulet_mn_uber60]
 {
 	specializes = amulet;
 	doc = "Keeper Amulet";
