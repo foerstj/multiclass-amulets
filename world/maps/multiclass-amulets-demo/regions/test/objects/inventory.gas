@@ -1,4 +1,4 @@
-[t:amulet_reqs,n:0x00100000]
+[t:multiclass_amulet_mn_uber50,n:0x00100000]
 {
 	[placement]
 	{
@@ -12,7 +12,7 @@
 	  p position = 1.43257,0,2.33039,0x461560b1;
 	}
 }
-[t:amulet_reqs2,n:0x00100003]
+[t:multiclass_amulet_mn_uber60,n:0x00100003]
 {
 	[placement]
 	{
