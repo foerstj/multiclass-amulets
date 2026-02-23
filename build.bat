@@ -1,9 +1,9 @@
-:: map name
+:: mod/map name
 set mod=multiclass-amulets
-set map=%mod%-demo
+set map_demo=%mod%-demo
 :: map name, case sensitive
 set mod_cs=Multiclass Amulets
-set map_cs=%mod_cs% Demo
+set map_demo_cs=%mod_cs% Demo
 
 :: path of Bits dir
 set bits=%~dp0.
@@ -18,13 +18,18 @@ set author=Johannes Förstner
 :: Compile resource file
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\world\contentdb\templates\%mod%" "%tmp%\Bits\world\contentdb\templates\%mod%" /S
-"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%mod_cs%.dsres" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%mod_cs%.dsres" -copyright "%copyright%" -title "%mod_cs%" -author "%author%"
 if %errorlevel% neq 0 pause
 
 :: Compile demo map file
 rmdir /S /Q "%tmp%\Bits"
-robocopy "%bits%\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E
-"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_cs%.dsmap" -copyright "%copyright%" -title "%map_cs%" -author "%author%"
+robocopy "%bits%\world\maps\%map_demo%" "%tmp%\Bits\world\maps\%map_demo%" /E
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_demo_cs%.dsmap" -copyright "%copyright%" -title "%mod_cs%" -author "%author%"
+if %errorlevel% neq 0 pause
+:: Compile demo resource file
+rmdir /S /Q "%tmp%\Bits"
+robocopy "%bits%\world\contentdb\templates\%map_demo%" "%tmp%\Bits\world\contentdb\templates\%map_demo%" /S
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_demo_cs%.dsres" -copyright "%copyright%" -title "%mod_cs%" -author "%author%"
 if %errorlevel% neq 0 pause
 
 :: Cleanup
