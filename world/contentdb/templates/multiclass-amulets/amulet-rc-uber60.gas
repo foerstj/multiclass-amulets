@@ -3,7 +3,7 @@
 	specializes = base_multiclass_amulet;
 
 	common:screen_name	= "Ranged + Combat Magic, Uber Level 60";
-    aspect:gold_value = 2520;
+    aspect:gold_value = 20000;
 
 	[gui]
 	{

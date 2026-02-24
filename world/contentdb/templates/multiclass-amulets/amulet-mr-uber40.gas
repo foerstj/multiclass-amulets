@@ -3,7 +3,7 @@
 	specializes = base_multiclass_amulet;
 
 	common:screen_name	= "Melee + Ranged, Uber Level 40";
-    aspect:gold_value = 1680;
+    aspect:gold_value = 2000;
 
 	[gui]
 	{

@@ -6,7 +6,7 @@
 	specializes = base_multiclass_amulet;
 
 	common:screen_name	= "{{ skill_name_a }} + {{ skill_name_b }}, Uber Level {{ uber }}";
-    aspect:gold_value = {{ 42 * uber }};
+    aspect:gold_value = {{ 20 * (10 ** (uber/20)) | int }};
 
 	[gui]
 	{

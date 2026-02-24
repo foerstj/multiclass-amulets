@@ -3,7 +3,7 @@
 	specializes = base_multiclass_amulet;
 
 	common:screen_name	= "Melee + Combat Magic, Uber Level 20";
-    aspect:gold_value = 840;
+    aspect:gold_value = 200;
 
 	[gui]
 	{
