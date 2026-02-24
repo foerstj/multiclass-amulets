@@ -12,4 +12,6 @@ if %errorlevel% neq 0 pause
 pushd "%GasPy%"
 venv\Scripts\python -m jinja gaspy world\contentdb\templates\multiclass-amulets --for-each gaspy\amulets.csv --bits "%bits%"
 if %errorlevel% neq 0 pause
+venv\Scripts\python -m jinja gaspy\shop world\contentdb\templates\multiclass-amulets-shop --for-all gaspy\amulets.csv --bits "%bits%"
+if %errorlevel% neq 0 pause
 popd

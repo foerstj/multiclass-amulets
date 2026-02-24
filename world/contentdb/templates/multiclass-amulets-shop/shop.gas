@@ -1,0 +1,74 @@
+[t:template,n:multiclass_amulets_shop]
+{
+	category_name = "1W_shopkeeper";
+	doc = "horty_olof";
+	specializes = base_npc_pmo;
+	[actor]
+	{
+		portrait_icon = b_gui_ig_i_ic_c_onoc;
+	}
+	[aspect]
+	{
+		draw_selection_indicator = TRUE;
+		use_range = 1.0;
+		is_ghost_usable = TRUE;
+		[textures]
+		{
+			0 = b_c_gbn_pmo-03;
+		}
+	}
+	[common]
+	{
+		screen_name = "Multiclass Amulets";
+	}
+	[conversation]
+	{
+	}
+	[inventory]
+	{
+		[store_pcontent]
+		{
+			full_ratio = .3;
+		}
+	}
+	[respawn_shrine]
+	{
+	}
+	[store]
+	{
+		item_markup = 2;
+		[item_restock]
+		{
+			multiclass_amulet_mr_uber10 = 1;
+			multiclass_amulet_mr_uber20 = 1;
+			multiclass_amulet_mr_uber30 = 1;
+			multiclass_amulet_mr_uber40 = 1;
+			multiclass_amulet_mr_uber50 = 1;
+			multiclass_amulet_mr_uber60 = 1;
+			multiclass_amulet_mn_uber10 = 1;
+			multiclass_amulet_mn_uber20 = 1;
+			multiclass_amulet_mn_uber30 = 1;
+			multiclass_amulet_mn_uber40 = 1;
+			multiclass_amulet_mn_uber50 = 1;
+			multiclass_amulet_mn_uber60 = 1;
+			multiclass_amulet_mc_uber10 = 1;
+			multiclass_amulet_mc_uber20 = 1;
+			multiclass_amulet_mc_uber30 = 1;
+			multiclass_amulet_mc_uber40 = 1;
+			multiclass_amulet_mc_uber50 = 1;
+			multiclass_amulet_mc_uber60 = 1;
+			multiclass_amulet_rn_uber10 = 1;
+			multiclass_amulet_rn_uber20 = 1;
+			multiclass_amulet_rn_uber30 = 1;
+			multiclass_amulet_rn_uber40 = 1;
+			multiclass_amulet_rn_uber50 = 1;
+			multiclass_amulet_rn_uber60 = 1;
+			multiclass_amulet_rc_uber10 = 1;
+			multiclass_amulet_rc_uber20 = 1;
+			multiclass_amulet_rc_uber30 = 1;
+			multiclass_amulet_rc_uber40 = 1;
+			multiclass_amulet_rc_uber50 = 1;
+			multiclass_amulet_rc_uber60 = 1;
+		}
+	}
+}
