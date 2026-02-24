@@ -3,20 +3,20 @@
 	[t:start_group,n:default]
 	{
 	  b default = true;
-		description = "This is the default group.";
+		description = "Buy Multiclass Amulets here.";
 	  b dev_only = false;
 	  i id = 0;
-		screen_name = "";
+		screen_name = "Multiclass Amulets Shop";
 		[start_position]
 		{
 		  i id = 1;
-			position = 0.000000,0.000000,0.000000,0x97BDFD7A;
+			position = -6.522291,-4.550000,-5.542253,0x6B5F92BE;
 			[camera]
 			{
-			  f azimuth = 0.500000;
-			  f distance = 20.000000;
-			  f orbit = 0.000000;
-				position = 0.000000,0.000000,0.000000,0x97BDFD7A;
+			  f azimuth = 0.830797;
+			  f distance = 18.000000;
+			  f orbit = -2.369999;
+				position = -5.904155,0.000000,-5.432402,0x6B5F92BE;
 			}
 		}
 		[world_levels]

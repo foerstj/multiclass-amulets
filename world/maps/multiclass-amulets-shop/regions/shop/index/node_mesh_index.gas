@@ -1,4 +1,6 @@
 [node_mesh_index]
 {
-	0x001006a5 = t_xxx_flr_04x04-v0;
+	0x00100c7f = t_grs01_houses_tudor-shop-a-door-top;
+	0x00100c80 = t_grs01_houses_tudor-shop-a-roof;
+	0x00100c81 = t_grs01_houses_tudor-shop-a;
 }
