@@ -1,9 +1,5 @@
 [t:multiclass_amulets_shop,n:0x00100007]
 {
-	[aspect]
-	{
-	  f use_range = 0.5;
-	}
 	[conversation]
 	{
 		[conversations]
@@ -11,9 +7,14 @@
 			* = shop;
 		}
 	}
+	[mind]
+	{
+	  f inner_comfort_zone_range = 2;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.92388,0,0.382683;
 	  p position = -0.576048,-4.25,0.53455,0x6b5f92be;
+		use_point_scids = 0x00100012;
 	}
 }

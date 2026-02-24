@@ -130,3 +130,10 @@
 	  p position = -6.04383,-4.55,-7.03871,0x6b5f92be;
 	}
 }
+[t:use_point,n:0x00100012]
+{
+	[placement]
+	{
+	  p position = -1.95018,-4.25,-0.882758,0x6b5f92be;
+	}
+}
