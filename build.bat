@@ -6,6 +6,7 @@ set map_demo=%mod%-demo
 set mod_cs=Multiclass Amulets
 set map_shop_cs=%mod_cs% Shop
 set map_demo_cs=%mod_cs% Demo
+set mod_originals=%mod_cs% in Original Shops
 
 :: path of Bits dir
 set bits=%~dp0.
@@ -32,6 +33,12 @@ if %errorlevel% neq 0 pause
 rmdir /S /Q "%tmp%\Bits"
 robocopy "%bits%\world\contentdb\templates\%map_shop%" "%tmp%\Bits\world\contentdb\templates\%map_shop%" /S
 "%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%map_shop_cs%.dsres" -copyright "%copyright%" -title "%mod_cs%" -author "%author%"
+if %errorlevel% neq 0 pause
+
+:: Compile resource file
+rmdir /S /Q "%tmp%\Bits"
+robocopy "%bits%\world\contentdb\templates\regular" "%tmp%\Bits\world\contentdb\templates\regular" /S
+"%tc%\RTC.exe" -source "%tmp%\Bits" -out "%ds%\DSLOA\%mod_originals%.dsres" -copyright "%copyright%" -title "%mod_cs%" -author "%author%"
 if %errorlevel% neq 0 pause
 
 :: Compile demo map file
