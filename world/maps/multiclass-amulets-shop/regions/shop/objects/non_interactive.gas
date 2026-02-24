@@ -1,0 +1,84 @@
+[t:wood_glb_pile_fireplace_burnt,n:0x00100009]
+{
+	[placement]
+	{
+	  p position = 2.50282,-3.95,2.88274,0x6b5f92be;
+	}
+}
+[t:wood_glb_pile_fireplace_burnt,n:0x0010000a]
+{
+	[placement]
+	{
+	  p position = 2.16553,-3.95,3.33295,0x6b5f92be;
+	}
+}
+[t:wood_glb_pile_fireplace_burnt,n:0x0010000b]
+{
+	[placement]
+	{
+	  p position = 1.77008,-3.95,3.60597,0x6b5f92be;
+	}
+}
+[t:wood_glb_pile_fireplace_burnt,n:0x0010000c]
+{
+	[placement]
+	{
+	  p position = 2.12506,-3.95,2.84086,0x6b5f92be;
+	}
+}
+[t:wood_glb_pile_fireplace_burnt,n:0x0010000d]
+{
+	[placement]
+	{
+	  p position = 1.74953,-3.95,3.18438,0x6b5f92be;
+	}
+}
+[t:candle_glb_01,n:0x0010000e]
+{
+	[placement]
+	{
+	  p position = -1.62715,-3.3,4.07927,0x6b5f92be;
+	}
+}
+[t:candle_glb_01,n:0x0010000f]
+{
+	[placement]
+	{
+	  p position = -4.90702,-3.3,0.82262,0x6b5f92be;
+	}
+}
+[t:candle_glb_01,n:0x00100010]
+{
+	[placement]
+	{
+	  p position = -0.238691,-3.3,-4.02919,0x6b5f92be;
+	}
+}
+[t:candle_glb_01,n:0x00100011]
+{
+	[placement]
+	{
+	  p position = 3.48923,-2.75,-3.59672,0x6b5f92be;
+	}
+}
+[t:candle_glb_01,n:0x00100013]
+{
+	[placement]
+	{
+	  p position = 6.20079,-2.75,-0.979252,0x6b5f92be;
+	}
+}
+[t:candlestand_csl_01,n:0x00100017]
+{
+	[placement]
+	{
+	  p position = 1.32317,-2.25,3.88697,0x6b5f92be;
+	}
+}
+[t:candlestand_csl_01,n:0x00100018]
+{
+	[placement]
+	{
+	  p position = 2.8679,-2.25,2.34924,0x6b5f92be;
+	}
+}
