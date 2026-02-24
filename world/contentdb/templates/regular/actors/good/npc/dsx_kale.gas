@@ -348,6 +348,18 @@
 			spell_revive = 1;
 			spell_healing_hands = 1;
 			spell_healing_wind = 1;
+
+			// ADDED
+			multiclass_amulet_mr_uber10 = 1;
+			multiclass_amulet_mn_uber10 = 1;
+			multiclass_amulet_mc_uber10 = 1;
+			multiclass_amulet_rn_uber10 = 1;
+			multiclass_amulet_rc_uber10 = 1;
+			multiclass_amulet_mr_uber20 = 1;
+			multiclass_amulet_mn_uber20 = 1;
+			multiclass_amulet_mc_uber20 = 1;
+			multiclass_amulet_rn_uber20 = 1;
+			multiclass_amulet_rc_uber20 = 1;
 		}
 	}
 	[mind]

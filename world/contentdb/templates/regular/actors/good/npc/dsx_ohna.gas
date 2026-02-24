@@ -285,6 +285,28 @@
 					spell_healing_wind = 1;
 					spell_fireshot = 1;
 					spell_zap = 1;
+
+					// ADDED
+					multiclass_amulet_mr_uber10 = 1;
+					multiclass_amulet_mn_uber10 = 1;
+					multiclass_amulet_mc_uber10 = 1;
+					multiclass_amulet_rn_uber10 = 1;
+					multiclass_amulet_rc_uber10 = 1;
+					multiclass_amulet_mr_uber20 = 1;
+					multiclass_amulet_mn_uber20 = 1;
+					multiclass_amulet_mc_uber20 = 1;
+					multiclass_amulet_rn_uber20 = 1;
+					multiclass_amulet_rc_uber20 = 1;
+					multiclass_amulet_mr_uber30 = 1;
+					multiclass_amulet_mn_uber30 = 1;
+					multiclass_amulet_mc_uber30 = 1;
+					multiclass_amulet_rn_uber30 = 1;
+					multiclass_amulet_rc_uber30 = 1;
+					multiclass_amulet_mr_uber40 = 1;
+					multiclass_amulet_mn_uber40 = 1;
+					multiclass_amulet_mc_uber40 = 1;
+					multiclass_amulet_rn_uber40 = 1;
+					multiclass_amulet_rc_uber40 = 1;
 				}
 
 		}
