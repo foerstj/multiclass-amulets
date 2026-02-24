@@ -1,5 +1,7 @@
 [node_mesh_index]
 {
+	0x0010080d = t_xxx_ledg_24-cnr-cnvx-t;
+	0x00100812 = t_xxx_ledg_24-thck-t;
 	0x00100c7f = t_grs01_houses_tudor-shop-a-door-top;
 	0x00100c80 = t_grs01_houses_tudor-shop-a-roof;
 	0x00100c81 = t_grs01_houses_tudor-shop-a;

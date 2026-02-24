@@ -1,6 +1,14 @@
 [streamer_node_index]
 {
+  x * = 0x16F7AC3C;
+  x * = 0x389DAA61;
   x * = 0x6268072F;
   x * = 0x6B5F92BE;
+  x * = 0x6C41ED98;
+  x * = 0x73A04A3C;
+  x * = 0x790247AD;
+  x * = 0xBDB89D7B;
   x * = 0xC5885E34;
+  x * = 0xD6C7C190;
+  x * = 0xE0F8E684;
 }

@@ -1,0 +1,8 @@
+[t:door_grs_peasant_right,n:0x00100005]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = -4.54634,-4.25,-2.55206,0x6b5f92be;
+	}
+}
