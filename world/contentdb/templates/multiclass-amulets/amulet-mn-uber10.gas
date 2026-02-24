@@ -1,11 +1,8 @@
 [t:template,n:multiclass_amulet_mn_uber10]
 {
-	specializes = amulet;
+	specializes = base_multiclass_amulet;
 
-	doc = "Multiclass Amulet";
 	common:screen_name	= "Melee + Nature Magic, Uber Level 10";
-    common:is_pcontent_allowed = false;
-    gui:inventory_icon = b_gui_ig_i_it_amulet_005;
     aspect:gold_value = 420;
 
 	[gui]
