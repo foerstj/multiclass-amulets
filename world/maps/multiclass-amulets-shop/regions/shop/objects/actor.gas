@@ -1,0 +1,15 @@
+[t:multiclass_amulets_shop,n:0x00100007]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = shop;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.92388,0,0.382683;
+	  p position = -0.377941,-4.25,0.318994,0x6b5f92be;
+	}
+}
